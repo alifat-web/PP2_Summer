@@ -1,3 +1,3 @@
 a = 2
 b = 330
-print("A") if a > b else print("B") 
+print("A") if a > b else print("B")
