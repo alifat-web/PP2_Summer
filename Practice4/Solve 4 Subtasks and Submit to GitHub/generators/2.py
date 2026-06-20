@@ -3,6 +3,7 @@ def even_numbers(n):
         if i % 2 == 0:
             yield str(i)
 
-n = int(input("Enter n: "))
+n = int(input("Enter N: "))
 
-print(",".join(even_numbers(n)))
+for even in even_numbers(n):
+    print(even, end=' ')
